@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body id="home" class="position-relative bg-img">
+
+    <div class="container my-5 text-center">
+        <div class="group m-auto w-65 p-5">
+            <!-- <div class="d-flex justify-content-center">
+                <h1 class="position-relative text-center py-5 ff-p hov">Smart Login System</h1>
+            </div> -->
+            <div class="py-1">
+            <h1>Smart Login System</h1>
+            </div>
+
+            <input type="text" id="signinEmail" class="form-control my-3" placeholder="Enter Your Email">
+            <input type="password" id="signinPassword" class="form-control my-3" placeholder="Enter Your Password">
+
+            <p id="exist"></p>
+            <p id="incorrect"></p>
+            <button onclick="login()" class="btn btn-outline-primary w-100 my-3">Login</button>
+            <p class="text-primary">
+                Don't have an account? 
+                <a href="signup.html" class="text-primary">Sign Up</a>
+            </p>
+            
+        </div>
+    </div>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
